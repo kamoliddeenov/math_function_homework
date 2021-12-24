@@ -1,5 +1,7 @@
-from math import sin, degrees, pi, radians
-def  main(a,b):
-    return round(degrees(a*radians(sin(b))), 2)
+from math import sin, degrees, radians
+def main(a,b):
+    c = a * sin(b)
+    d = degrees(radians(c))
+    return round(d,2)
 
-print(main(60,90))
+print(main(30,60))
