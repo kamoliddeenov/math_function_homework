@@ -1,4 +1,5 @@
+from math import sqrt
 def main(a):
-    return a * a
+    return sqrt(a)
 
 print(main(5))
