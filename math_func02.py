@@ -1,6 +1,5 @@
 from math import pi
-def main(a):
-    length = 2*a*pi
-    return length
+def main(radius):
+    return round(pi * radius**2, 2)
 
-print(main(5))
+print(main(16))
