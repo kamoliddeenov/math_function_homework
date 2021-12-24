@@ -1,3 +1,4 @@
-# Create the main function.
+def main(a):
+    return a * a
 
-# Given the square area, find its side and return.
+print(main(5))
