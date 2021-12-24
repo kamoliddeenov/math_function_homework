@@ -1,7 +1,7 @@
-# Create the main function.
+from math import cos, degrees
+def main(a,b):
+    c = a * cos(b)
+    d = degrees(c)
+    return round(d,2)
 
-# Multiplies one number by the COSINE of another number.
-
-# Convert the number from radians to degrees.
-
-# Round the result to 2 decimal places.
+print(main(8,15))
