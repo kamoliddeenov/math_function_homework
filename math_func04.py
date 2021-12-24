@@ -1,7 +1,6 @@
-from math import sin, degrees
+from math import sin, degrees, pi
 def  main(a,b):
-    c = sin(a) * sin(b)
-    d = degrees(c)
-    return round(d, 2)
+    b = pi/2
+    return round(degrees(a*sin(b)), 2)
 
 print(main(4,3))
